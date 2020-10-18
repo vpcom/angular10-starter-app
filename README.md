@@ -26,10 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Good practices
 
-https://google.github.io/styleguide/jsguide.html
+JavaScript: https://google.github.io/styleguide/jsguide.html
 
-https://angular.io/guide/styleguide
+CSS: https://github.com/airbnb/css
 
-https://www.conventionalcommits.org/en/v1.0.0/
+Angular: https://angular.io/guide/styleguide
 
-https://semver.org/
+Commits: https://www.conventionalcommits.org/en/v1.0.0/
+
+Versioning: https://semver.org/
