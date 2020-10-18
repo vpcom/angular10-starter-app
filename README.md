@@ -32,6 +32,8 @@ CSS: https://github.com/airbnb/css
 
 Angular: https://angular.io/guide/styleguide
 
-Commits: https://www.conventionalcommits.org/en/v1.0.0/
+Commits: https://www.conventionalcommits.org/
 
 Versioning: https://semver.org/
+
+Changelog: https://keepachangelog.com/
