@@ -24,6 +24,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Testing the service worker
+
+```
+ng build --prod
+http-server -p 8080 -c-1 dist/<project-name>
+```
+And open http://localhost:8080
+
+Note: outside of localhost, the server must use https.
+
 ## Good practices
 
 JavaScript: https://google.github.io/styleguide/jsguide.html
