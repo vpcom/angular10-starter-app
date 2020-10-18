@@ -27,6 +27,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Good practices
 
 https://google.github.io/styleguide/jsguide.html
+
 https://angular.io/guide/styleguide
+
 https://www.conventionalcommits.org/en/v1.0.0/
+
 https://semver.org/
