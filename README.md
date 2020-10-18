@@ -1,6 +1,8 @@
-# Angular10StarterApp
+# Angular 10 starter app
 
-This project imas at providing a complete Angular 10 progressive web application starter.
+This project aims at providing a complete Angular 10 progressive web application starter.
+
+Work in progress, more details soon.
 
 ## Development server
 
