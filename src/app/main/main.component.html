@@ -1,9 +1,16 @@
-
-<nav>
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Angular 10 starter App</span>
+        <span class="spacer"></span>
+        <a mat-button routerLink="/first-component" routerLinkActive="active">First page</a>
+        <a mat-button routerLink="/second-component" routerLinkActive="active">Second page</a>
+    </mat-toolbar-row>
+</mat-toolbar>
+<!-- <nav>
     <ul>
         <li><a routerLink="/first-component" routerLinkActive="active">First page</a></li>
         <li><a routerLink="/second-component" routerLinkActive="active">Second page</a></li>
     </ul>
-</nav>
+</nav> -->
 
 <router-outlet></router-outlet>
