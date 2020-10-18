@@ -28,7 +28,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ```
 ng build --prod
-http-server -p 8080 -c-1 dist/<project-name>
+http-server -p 8080 -c-1 dist/angular10-starter-app
 ```
 And open http://localhost:8080
 
