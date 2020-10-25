@@ -10,6 +10,7 @@ import { environment } from '../environments/environment';
 import { MainComponent } from './main/main.component';
 import { SecondComponent } from './second/second.component';
 import { FirstComponent } from './first/first.component';
+import { TodoModule } from './todo/todo.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FirstComponent } from './first/first.component';
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    TodoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

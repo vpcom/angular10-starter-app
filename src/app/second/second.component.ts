@@ -1,16 +1,24 @@
+import { Todo } from '../todo/todo';
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { TodoService } from '../services/todo.service';
+import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-second',
-  templateUrl: './second.component.html',
-  styleUrls: ['./second.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'app-second',
+    templateUrl: './second.component.html',
+    styleUrls: ['./second.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SecondComponent implements OnInit {
 
-  constructor() { }
+    todoList: Observable<Todo[]>;
 
-  ngOnInit(): void {
-  }
+    constructor(private todoService: TodoService) { }
+
+    ngOnInit(): void {
+
+        this.todoList = this.todoService.getTodoList();
+
+    }
 
 }
