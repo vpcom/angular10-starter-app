@@ -1,6 +1,7 @@
-<div>
-    <div>
-        <!-- currentItem -->
-        <app-todo-row [item]="itemList[0]"></app-todo-row>
-    </div>
+
+<div class="todo-container">
+    <ng-container *ngIf="(todoList$ | async) as todoList">
+        <app-todo-row *ngFor='let todoItem of todoList' [todoItem]="todoItem"></app-todo-row>
+    </ng-container>
+    <app-todo-input></app-todo-input>
 </div>

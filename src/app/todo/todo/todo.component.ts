@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Todo } from '../todo';
 
 @Component({
     selector: 'app-todo',
@@ -7,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class TodoComponent implements OnInit {
 
-    @Input() itemList: string;
+    @Input() todoList$: Observable<Todo[]>;
 
     constructor() { }
 

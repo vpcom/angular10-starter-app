@@ -1,9 +1,17 @@
 @import '../../style/styles.scss';
 
+// The spacer takes all the space, so that following elements are pushed to the right
 .spacer {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 .active {
     color: $accent;
+}
+
+// The top menu needs to remain visible, over the main area to allow it
+// to have a positioning considering the whole viewport.
+.top-menu {
+    z-index: 100;
+    position: relative;
 }

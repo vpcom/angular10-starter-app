@@ -11,14 +11,22 @@ import { Observable } from 'rxjs';
 })
 export class SecondComponent implements OnInit {
 
-    todoList: Observable<Todo[]>;
+    todoList$: Observable<Todo[]>;
 
     constructor(private todoService: TodoService) { }
 
     ngOnInit(): void {
 
-        this.todoList = this.todoService.getTodoList();
+        // this.todoService.setTodoList([{
+        //     id: 0,
+        //     name: 'test'
+        // }]);
+
+        this.todoList$ = this.todoService.getTodoList();
 
     }
+
+
+
 
 }

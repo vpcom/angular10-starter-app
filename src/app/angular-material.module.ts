@@ -18,6 +18,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatSnackBarModule,
     MatSlideToggleModule,
     MatDividerModule,
+    MatFormFieldModule,
   ],
   declarations: [
   ],
@@ -61,6 +63,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatSlideToggleModule,
     MatDividerModule,
     MatDatepickerModule,
+    MatFormFieldModule,
   ]
 })
 export class MaterialModule {}

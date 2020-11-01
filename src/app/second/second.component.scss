@@ -1,0 +1,16 @@
+
+main {
+    position: relative;
+
+    height: 100vh;
+    background-color: #ffffff;
+
+    // Compensates the top menu height
+    margin-top: -65px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

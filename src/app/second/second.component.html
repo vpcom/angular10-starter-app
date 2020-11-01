@@ -1,8 +1,14 @@
+<main>
 
-<app-todo [itemList]="todoList"></app-todo>
+    <app-todo [todoList$]="todoList$"></app-todo>
 
-<button mat-raised-button>Basic</button>
-<button mat-raised-button color="primary">Primary</button>
-<button mat-raised-button color="accent">Accent</button>
-<button mat-raised-button color="warn">Warn</button>
-<button mat-raised-button disabled>Disabled</button>
+</main>
+
+    <!-- <pre>
+        {{ todoList$ | async | json}}
+    </pre>
+    <button mat-raised-button>Basic</button>
+    <button mat-raised-button color="primary">Primary</button>
+    <button mat-raised-button color="accent">Accent</button>
+    <button mat-raised-button color="warn">Warn</button>
+    <button mat-raised-button disabled>Disabled</button> -->

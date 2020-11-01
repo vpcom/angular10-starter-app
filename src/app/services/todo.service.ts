@@ -14,8 +14,10 @@ export class TodoService {
 
     public getTodoList(): Observable<Todo[]> {
         return this.localStorageService.getCache().pipe(
-            // tap(data => { console.log(data) }),
-            map(cachedData => cachedData)
+            //tap((data: Observable<Todo[]>) => { console.log(data) }),
+            map(cachedData => {
+                console.log(cachedData);
+                return cachedData })
         );
     }
 

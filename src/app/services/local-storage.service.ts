@@ -15,7 +15,7 @@ export class LocalStorageService {
      * @returns Observable<any>
      */
     public getCache(): Observable<any> {
-        // console.log('cachedData', localStorage.getItem(this.localStorageKey));
+        console.log('cachedData', localStorage.getItem(this.localStorageKey));
         return of(JSON.parse(localStorage.getItem(this.localStorageKey)));
     }
 
