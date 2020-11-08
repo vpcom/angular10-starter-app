@@ -2,7 +2,10 @@
 .todo-container {
     border: 1px solid #666666;
     border-radius: 5px;
+    margin: 10px;
     padding: 20px;
+    min-width: 300px;
+    max-width: 50%;
 }
 
 .todo-full-width {
